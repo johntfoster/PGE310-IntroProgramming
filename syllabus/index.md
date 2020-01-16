@@ -6,7 +6,7 @@
 .. description: PGE 323M - Reservoir Engineering III syllabus page
 -->
 
-## PGE 323M - Reservoir Engineering III  
+## PGE 310 - Formation and Solution of Geosystems Engineering Problems
 
 
 **Instructor:** John T. Foster, Ph.D.  
@@ -19,7 +19,7 @@
 **Office Hours:** T-Th 9:45 AM - 10:45 AM and by appointment   
 
 
-**Course Website:** [https://utexas.instructure.com/courses/1266190](https://utexas.instructure.com/courses/1266190) 
+**Course Website:** [https://utexas.instructure.com/courses/1266928](https://utexas.instructure.com/courses/1266928) 
 
 **Course Development Environment:** <a href="https://spindletop.pge.utexas.edu" target="_blank">spindletop.pge.utexas.edu</a>
 
