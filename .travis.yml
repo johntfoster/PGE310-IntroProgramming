@@ -30,7 +30,7 @@ after_success:
     - git config --global user.email ${GH_EMAIL}
     - git config --global user.name ${GH_NAME}
     # Commit and Push the Changes
-    - git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/johnfoster-pge-utexas/PGE323M-ResEngineeringIII gh-pages > /dev/null
+    - git clone --quiet --branch=gh-pages https://${GH_TOKEN}@github.com/johnfoster-pge-utexas/PGE310-IntroProgramming gh-pages > /dev/null
     - cd gh-pages
     - cp -Rf $HOME/build/johnfoster-pge-utexas/PGE310-IntroProgramming/output/* .
     - git add -A
