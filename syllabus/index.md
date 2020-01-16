@@ -23,8 +23,7 @@
 
 **Course Development Environment:** <a href="https://spindletop.pge.utexas.edu" target="_blank">spindletop.pge.utexas.edu</a>
 
-**Course Description**: Mathematical equations governing fluid flow in reservoirs; numerical methods to solve the equations; numerical reservoir simulation; treatment of wells; history matching; a simulation project performed using a commercial simulator. Restricted to students admitted to major sequence in geosystems engineering and hydrogeology or petroleum engineering. 
-
+**Course Description**: Introduction to mathematical equations typically encountered in petroleum and geosystems engineering; methods to solve equations graphically, analytically, and with numerical methods; applications of computers to problem solving. 
 
 **Prerequisites:** Petroleum and Geosystems Engineering 323L
 
