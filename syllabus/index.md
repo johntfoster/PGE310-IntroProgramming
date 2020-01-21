@@ -16,51 +16,97 @@
 
 **Class Location:** CPE 3.114  
 **Class Time:** T-Th 11:00 AM - 12:30 PM  
-**Office Hours:** T-Th 9:45 AM - 10:45 AM and by appointment   
+**Office Hours:** By appointment.  **Note:**  Due to the "reverse classroom" nature of this course, we will spend the majority of in-class time working assignments.  *This is your opportunity to ask questions.*  If you need additional help outside of that, feel free to send me an email I'll be happy to meet with you provided that your in-class attendance and participation are acceptable. 
 
 
 **Course Website:** [https://utexas.instructure.com/courses/1266928](https://utexas.instructure.com/courses/1266928) 
 
-**Course Development Environment:** <a href="https://spindletop.pge.utexas.edu" target="_blank">spindletop.pge.utexas.edu</a>
+**Course Development Environment:** <a href="https://spindletop.pge.utexas.edu" target="_blank">https://spindletop.pge.utexas.edu</a>
 
 **Course Description**: Introduction to mathematical equations typically encountered in petroleum and geosystems engineering; methods to solve equations graphically, analytically, and with numerical methods; applications of computers to problem solving. 
 
-**Prerequisites:** Petroleum and Geosystems Engineering 323L
+**Prerequisites:** Physics 303K, Physics 103M, and Mathematics 427J
 
-**Book:** Most of the reservoir simulation textbooks are out-dated and/or are geared towards graduate students. There are several books that would make a good reference which are included below.  
+**Book:** 
 
-Additionally, Dr. Balhoff has a manuscript for a textbook he is writing that may be downloaded from Canvas and used as a reference.  
+I will provide you with a comprehensive set of notes and will ensure that you will be adequately prepared for each homework assignment.  Because of this, and the wealth of information available on the internet, I have chosen to not require you to purchase a text for this course.  I am preparing a companion online book for this class available below:
 
-**Suggested References:**
+1. [Numerical Methods and Programming](https://johntfoster.github.io/numerical_methods_book)
 
-1. Chen, Z. *Reservoir Simulation: Mathematical Techniques in Oil Recovery.* Society of Industrial and Applied Mathematics, Philadelphia, PA 2007.
+**Suggested References: (not required to purchase)**
 
-1. Kassem, J.H., Ali, S., Islam, M., *Petroleum Reservoir Simulation: A Basic Approach*, Gulf Publishing Company, Houston, TX, 2006.
+1. J. Kiusalaas, Numerical methods in engineering with Python 3, Cambridge University Press, Cambridge; New York, 2013.
 
-1. Chrichlow, Henry B., *Modern Reservoir Engineering: A Simulation Approach*, Prentice Hall, Englewood Cliffs, N.J., 1979.
+1. M.A. Wood, Python and Matplotlib essentials for scientists and engineers, Morgan et Claypool; IOP Publ., San Rafael, Calif.; Bristol, 2015.
 
-1. Aziz, Khalid and Settari, Anthony, *Petroleum Reservoir Simulation*, Elsevier, New York, 1979.
+**Online Python tutorials:**
 
-1. Mattax, Calvin C., and Dalton, Robert L. (eds.), *Reservoir Simulation*, SPE Monograph Series, 1990.
+We will spend a few weeks learning some basic Python syntax and computer programming flow control conventions as part of this class; however, I strongly encourage you to utilize one of the online courses designed to teach Python.  Two I recommend are:
 
-1. Peaceman, Donald W., *Fundamentals of Numerical Reservoir Simulation*, Elsevier, New York, 1977.
+1. [Codecademy](https://www.codecademy.com/catalog/language/python) - Free 7-day trail
 
-1. Thomas, Gordon W., *Principles of Hydrocarbon Reservoir Simulation*, IHRDC, Boston, 1982.
+1. [Datacamp](https://www.datacamp.com/) - Information on how to aquire a free 2-month trail [here](https://www.c-sharpcorner.com/blogs/steps-to-activate-free-access-to-datacamp-pulralsight-linkedin-learning-etc-through-visual-studio-dev-essentials-program)
 
-1. Ertekin, Turgay, Jamal H. Abou-Kassem and Gregory R. King, *Basic Applied Reservoir Simulation,* Henry L. Doherty Memorial Fund of AIME, Society of Petroleum Engineers, Richardson, TX 2001.
+**Course Introduction and Outline:**
 
-1. Smith, G. D., *Numerical Solution of Partial Differential Equations, Clarendon Press* (1978).
+As engineers we often encounter problems too large or too difficult to solve in a conventional manner;  therefore, we resort to using the computer to do the hard work for us.  This is a first course in numerical methods, intended to introduce the student to the algorithms and techniques an engineer might employ in solving these difficult problems.  Most of the algorithms discussed in this class are typically available nowadays in packaged libraries, whether within engineering tools such as MATLAB, Mathematica,  or Python modules; or packaged solvers for lower-level languages such as BLAS, LAPAK, ODEPAK, etc. available for C/C++ and/or FORTRAN.  In the typical course of engineering problem solving we will build our code with these highly robust packages and  not try to "reinvent the wheel"; it is, however, important to have an underlying understanding of some of the fundamental algorithms employed in these packages.  This allows us to choose solvers appropriate to the problem based on our desires for accuracy, stability, speed, etc.  This course is designed to provide the student with this underlying understanding of basic algorithms and a degree of proficiency in programming them.  Below is list of subjects that we will attempt to cover this semester.  As the needs of the class are better understood, I may choose to focus on some areas more than others.
 
-1. Ertekin, T and Adewumi, M.A., *Reservoir Simulation*, IHRDC, Boston, MA (1995).
+ * Python Programming
+   * Loops
+   * Conditional statements
+   * Functions
+   * Object-oriented programming
+   * Array computing
+   * 2 and 3d visualizations
+ * Linear systems
+   * Gaussian elimination
+   * Pivoting
+   * Gauss-Jordan elimination
+   * LU factorization
+   * Inverses
+   * Determinants
+   * Iterative methods
+   * Singular-Value decomposition
+ * Eigenvalue problems
+   * Power method
+   * Inverse power method
+   * Householder method
+   * QR decomposition and algorithm
+ * Nonlinear equations of one variable
+   * Bisection method
+   * Newton-Raphson method
+   * Secant method
+   * Hybrid methods
+ * Polynomials
+   * Synthetic division
+   * Müller's method
+   * Deflation
+ * Nonlinear equations of more that one variable
+   * Newton's method
+   * Broyden's method
+   * Steepest decent technique
+ * Numerical differentiation and integration
+   * Newton-Gregory polynomials
+   * Newton-Cotes formulas for quadrature
+   * Gauss quadrature
+ * Ordinary differential equations
+   * Euler's explicit
+   * Euler's implicit
+   * Runge-Kutta methods
+   * Multistep methods
+ * Boundary value problems
+   * Shooting methods
+   * Finite-difference method
+   * Finite-element method
+   * Partial differential equations
 
+I believe the only way to become proficient in numerical methods is to write and understand code; therefore, a significant portion of the grade allocation in the class will be from homework/small projects.  It is acceptable to talk to each other about your assignments, but every student will be expected to do their own work.  The grade allocation will be as follows:
 
 **Grading**
 
- * 10% Codecedemy Python Course Completion
-
  * 20% Lecture Quizes
 
- * 30% Daily assignments
+ * 40% Daily/Weekly assignments
 
  * 40% Projects
 
@@ -79,41 +125,6 @@ Additionally, Dr. Balhoff has a manuscript for a textbook he is writing that may
 |70-72| C-  |
 |60-70| D  |
 |< 60| F  |  
-
-
-**Outline:** Below is a general outline of what I intend to cover in the course.  This is subject to change based on the needs and preparation of the students in the class.  Any updates will be posted as they occur.  
-
-
-| Date | Description | Assignment |
-|-----------------|---------------------|-----------|
-|8/29| Introduction||
-|9/3| Software tools used in the course ||
-|9/5| Introduction to git and GitHub ||
-|9/10| Introduction to Python and Python functions ||
-|9/12| Python - Data structures, Loops and conditional statements ||
-|9/17| Python - Object-oriented programming ||
-|9/19| Python - Numpy, Scipy, matplotlib ||
-|9/24| Image Nechelik Reservoir |  |
-|9/26| Single-Phase Flow Eqns | |
-|10/1| Finite Differencing | |
-|10/3| Explicit and Implicit Method |  |
-|10/8| Implicit Method and Transmiss | |
-|10/10| CMG Tutorial | |
-|10/15| Crank Nicholson + Control Volume |  |
-|10/17| Heterogeneities | |
-|10/22| 2D Flow |
-|10/24| 2D Flow, wells and well models |  |
-|10/29| Multiphase Flow |  |
-|10/31| Project 1 in CMG |   |
-|11/5| Multiphase Flow | |
-|11/7| Multiphase Flow | |
-|11/12| IMPES |  |
-|11/14| Project 2 in CMG |  |
-|11/19| Advanced Topics | |
-|11/26|  Advanced Topics | |
-|11/28| **Thanksgiving** | |
-|11/3| Advanced Topics | |
-|11/5|  Advanced Topics | |
 
 
 **Disability Statement:** The University of Austin provides upon request appropriate academic accommodations for qualified students with disabilities. For more information, contact the Office of the Dean of Students at 512-471-6259 or see <a href="https://www.utexas.edu/diversity/ddce/ssd/" target="_blank">https://www.utexas.edu/diversity/ddce/ssd/</a> for more information.
