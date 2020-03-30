@@ -31,7 +31,7 @@
 
 I will provide you with a comprehensive set of notes and will ensure that you will be adequately prepared for each homework assignment.  Because of this, and the wealth of information available on the internet, I have chosen to not require you to purchase a text for this course.  I am preparing a companion online book for this class available below:
 
-1. [Numerical Methods and Programming](https://johntfoster.github.io/numerical_methods_book)
+1. [Numerical Methods and Programming](https://johnfoster.pge.utexas.edu/numerical-methods-book)
 
 **Suggested References: (not required to purchase)**
 
