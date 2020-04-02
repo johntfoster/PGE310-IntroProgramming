@@ -20,7 +20,7 @@ and any other reference material.
 
 <a href="https://youtu.be/0xrsyxsI31A" target="blank_">Lecture 3 - git and Github</a> ([HTML](/slides/git_and_Github.slides.html)) ([PDF](/slides/git_and_Github.pdf))
 
-<a href="https://youtu.be/Q1GTRWg9ciA" target="blank_">Lecture 4 - Introduction to Python: Variables and Data Types</a> ([HTML](https://johntfoster.github.io/numerical_methods_book/PythonIntro_VariablesDataTypes.html)) 
+<a href="https://youtu.be/Q1GTRWg9ciA" target="blank_">Lecture 4 - Introduction to Python: Variables and Data Types</a> ([HTML](https://johnfoster.pge.utexas.edu/numerical-methods-book/PythonIntro_VariablesDataTypes.html)) 
 
 <a href="https://youtu.be/fOkjvo3Jjs4" target="blank_">Lecture 5 - Introduction to Python: Conditionals and Flow Control</a>
 
