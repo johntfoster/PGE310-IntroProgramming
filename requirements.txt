@@ -3,7 +3,7 @@ certifi==14.5.14
 docutils==0.12
 doit==0.26.0
 gnureadline==6.3.3
-ipython==2.3.0
+ipython==7.16.3
 Jinja2>=2.10.1
 Logbook==0.7.0
 lxml==3.4.0
